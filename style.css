@@ -52,7 +52,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     border: none;
-    box-shadow: 1px 4px 6px 5px rgba(52, 42, 42, 0.8);
+    box-shadow: 1px 4px 6px 5px rgba(73, 68, 68, 0.8);
     background: transparent;
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -71,5 +71,10 @@ body {
 }
 
 .equalbtn {
-    background-color: #295868;
+    background-color: #76c8a55f;
+    color: white;
+}
+
+.equalbtn:hover {
+    background-color: #424c465f;
 }
