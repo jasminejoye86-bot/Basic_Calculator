@@ -1,1 +1,1 @@
-# jas_calculator
+# Complete interactive calculator
