@@ -16,15 +16,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #4d524ed9, #3d5243);
+    background: white;
 
 }
 
 .container {
-    border: 2px solid rgb(150, 140, 140);
+    /* border: 2px solid rgb(12, 31, 29); */
+    background-color: rgb(131, 129, 136);
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(183, 173, 173, 0.8);
+    box-shadow: 10px 10px 10px rgba(56, 52, 52, 0.8);
 
 }
 
@@ -36,7 +37,7 @@ body {
     border: none;
     text-align: right;
     font-size: 20px;
-    box-shadow: 1px 4px 6px 5px rgba(22, 19, 19, 0.8);
+    box-shadow: 1px 4px 6px 5px rgba(67, 56, 56, 0.8);
     color: white;
 
 }
@@ -51,20 +52,24 @@ body {
     padding: 20px;
     border-radius: 20px;
     border: none;
-    box-shadow: 1px 4px 6px 5px rgba(22, 19, 19, 0.8);
+    box-shadow: 1px 4px 6px 5px rgba(52, 42, 42, 0.8);
     background: transparent;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     text-align: center;
     margin: 4px;
+    background-color: white;
 }
 
 .btn {
     cursor: pointer;
 }
-.operator{
-    background-color:#567b60 ;
+
+.operator {
+    background-color: #868888;
+    color: white;
 }
-.equalbtn{
- background-color:#11ac59 ;
+
+.equalbtn {
+    background-color: #295868;
 }
